@@ -239,6 +239,65 @@ body {
     border-right: 2px solid;
 }
 
+.bankDetails {
+    font-size: 14px;
+    margin: 0 -2px;
+    border: 2px solid;
+    padding: 2px;
+}
+
+.bankDetails .bankDetailsContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.consent {
+    font-size: 14px;
+    padding: 2px;
+    margin: 0 -2px;
+}
+
+.finalAuth {
+    font-size: 14px;
+    margin: 0 -2px;
+    border: 2px solid;
+    border-bottom: unset;
+    display: flex;
+    height: 150px;
+}
+
+.finalAuth .sec1 {
+    flex: 6;
+    display: flex;
+    flex-direction: column;
+}
+
+.finalAuth .sec1 .subSec1 {
+    flex: 1;
+    border-bottom: 2px solid;
+    border-right: 2px solid;
+    padding: 2px;
+}
+
+.finalAuth .sec1 .subSec2 {
+    flex: 1;
+    display: flex;
+    border-right: 2px solid;
+    align-items: center;
+    padding: 2px;
+}
+
+.finalAuth .sec2 {
+    flex: 4.5;
+}
+
+.billFooter {
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
 .borderRight {
     border-right: 1px solid;
 }
